@@ -1,0 +1,11 @@
+Acme\DemoBundle\Entity\testing:
+    type: entity
+    table: null
+    repositoryClass: Acme\DemoBundle\Entity\testingRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
