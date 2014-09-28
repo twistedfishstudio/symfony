@@ -1,0 +1,10 @@
+{% extends "AcmeDemoBundle::mainTest.html.twig" %}
+
+{% block title "This is " ~ test1 %}
+
+{% block content %}
+    <h1>bla {{ test1 }}!</h1>
+{% endblock %}
+
+
+{% set code = code(_self) %}
